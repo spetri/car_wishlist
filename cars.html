@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <title>Harvest Challenge</title>
+  </head>
+  <body>
+
+    <div class="select-car-container">
+      <h2>Harvest Challenge</h2>
+      <h3>Choose a Dream Car</h3>  
+      <select id="dream-cars"></select>
+      <input type="submit" value="Add car" id="add-car"/>
+    </div>
+    
+    <div class="wish-list-container">
+      <h3>Your wish list below</h3>
+      <ul id="wish-list"></ul>
+      <p>American Colors Edition</p>
+    </div>
+
+    <!-- javascripts -->
+    <script src="cars.js"></script>
+    <script src="script.js" type="text/javascript"></script>
+    <script src="jquery-1.11.1.min.js" type="text/javascript"></script>
+    <script>
+      selectCars();
+    </script>
+  </body>
+</html>
